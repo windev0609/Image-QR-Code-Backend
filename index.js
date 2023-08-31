@@ -7,7 +7,6 @@ var apiRouter = require("./routes/api");
 var cors = require("cors");
 var bodyParser = require("body-parser");
 // const passport = require("passport");
-// const GoogleStrategy = require("passport-google-oauth2").Strategy;
 
 // DB connection
 var MONGO_URI = process.env.MONGO_URI;
